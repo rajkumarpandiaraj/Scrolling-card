@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 80vw;
+    margin: 50px auto;
+    padding-right: 20px;
+    background-color: rgba(243, 243, 248, 1);
+}
+.cards{
+    display: flex;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    align-items: center;
+    overflow: auto;
+    height: 500px;
+}
+.cards::-webkit-scrollbar{
+    height: 0px;
+}
+.card{
+    min-width: 250px;
+    height: 300px;
+    margin: 0 40px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+.card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.card:first-child{
+    margin-left: 70px;
+}
+.card-body{
+    text-align: left;
+}
+h4{
+    margin: 0.2rem 0;
+}
+p{
+    margin-left: 1rem;
+}
+.card img{
+    transition: 0.2s ease-in;
+}
+.card:hover img{
+    transform: translateY(-20px);
+}
+.iron{
+    width: 40%;
+    margin-top: -60px;
+}
+.cap{
+    width: 50% ;
+    margin-top: -60px;
+}
+.hulk{
+    width: 55%;
+    margin-top: -60px;
+}
+.thor{
+    width: 55%;
+    margin-top: -60px;
+}
+.hawk{
+    width: 40% ;
+    margin-top: -60px;
+}
+.widow{
+    width:37%;
+    margin-top: -60px;
+}
+.loki{
+    width: 57% ;
+    margin-top: -60px;
+}
+.vision{
+    width: 50% ;
+    margin-top: -60px;
+}
+.spider{
+    width: 75% ;
+    margin-top: -60px;
+}
+.capm{
+    width: 33%;
+    margin-top: -60px;
+}
+.ant{
+    width: 45% ;
+    margin-top: -60px;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    background-color: royalblue;
+    width: 100px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.btn span{
+    padding: 0.7rem;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.btn span:hover{
+    cursor: pointer;
+}
+.btn-1{
+    left: 0;
+    justify-content: flex-start;
+    background: linear-gradient(to right,  rgba(243, 243, 248, 1), rgba(243, 243, 248, 1), transparent);
+}
+.btn-2{
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(to left,  rgba(243, 243, 248, 1), rgba(243, 243, 248, 1), transparent);
+}
