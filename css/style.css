@@ -50,6 +50,7 @@ p{
 }
 .card img{
     transition: 0.2s ease-in;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.8));
 }
 .card:hover img{
     transform: translateY(-20px);
